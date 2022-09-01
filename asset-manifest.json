@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/taxertask/static/css/main.386a151d.css",
+    "main.js": "/taxertask/static/js/main.9462618d.js",
+    "static/js/787.232072a7.chunk.js": "/taxertask/static/js/787.232072a7.chunk.js",
+    "index.html": "/taxertask/index.html",
+    "main.386a151d.css.map": "/taxertask/static/css/main.386a151d.css.map",
+    "main.9462618d.js.map": "/taxertask/static/js/main.9462618d.js.map",
+    "787.232072a7.chunk.js.map": "/taxertask/static/js/787.232072a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386a151d.css",
+    "static/js/main.9462618d.js"
+  ]
+}
