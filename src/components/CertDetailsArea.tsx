@@ -11,11 +11,9 @@ export const CertDetailsArea: React.FC<Props> = ({ certificate }) => {
         <br />
         {"Issuer CN: " + certificate.issuer_commonName}
         <br />
-        {"Valid From: " +
-          new Date(certificate.valid_from).toISOString().substring(0, 10)}
+        {"Valid From: " + certificate.valid_from.substring(0, 10)}
         <br />
-        {"Valid To: " +
-          new Date(certificate.valid_to).toISOString().substring(0, 10)}
+        {"Valid To: " + certificate.valid_to.substring(0, 10)}
       </div>
     );
   } else {
