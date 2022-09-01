@@ -1,0 +1,34 @@
+.container {
+  border: 1px solid black;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.item {
+  cursor: pointer;
+  border: 1px solid black;
+  border-bottom: 0;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.item:nth-last-child(2) {
+  border-bottom: 1px solid black;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.addButton {
+  border-radius: 5px;
+  padding: 5px 20px;
+}
